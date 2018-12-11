@@ -1,12 +1,16 @@
 !!$HOME/.Xdefaults
 URxvt.preeditType:Root
-!!调整此处设置输入法
-URxvt.inputMethod:ibus
-!!颜色设置
+URxvt.geometry:100x40
+
+! default input method
+URxvt.inputMethod:fcitx
+
+! color setup
 URxvt.depth:32
-!!中括号内数表示透明度
-URxvt.background:[90]#000000
-URxvt.foreground:#ffffff
+
+URxvt.inheritPixmap:true
+URxvt.background:#282A36
+URxvt.foreground:#F8F8F2
 URxvt.colorBD:Gray95
 URxvt.colorUL:Green
 URxvt.color1:Red2
@@ -17,26 +21,30 @@ URxvt.color10:Green2
 URxvt.color12:DodgerBlue
 URxvt.color14:Cyan2
 URxvt.color15:Gray95
-!!URL操作
-URxvt.urlLauncher:chromium
+
+! default web brower
+URxvt.urlLauncher:/usr/bin/google-chrome-stable
 URxvt.matcher.button:1
 Urxvt.perl-ext-common:matcher
-!!滚动条设置
-URxvt.scrollBar:True
-URxvt.scrollBar_right:True
+
+! scroll bar setting
+URxvt.scrollBar:False
 URxvt.scrollBar_floating:False
 URxvt.scrollstyle:plain
-!!滚屏设置
+
+! scroll screen setting
 URxvt.mouseWheelScrollPage:True
 URxvt.scrollTtyOutput:False
 URxvt.scrollWithBuffer:True
 URxvt.scrollTtyKeypress:True
-!!光标闪烁
+
+! cursor splash
 URxvt.cursorBlink:True
 URxvt.saveLines:3000
-!!边框
+
+! border setting
 URxvt.borderLess:False
-!!字体设置
-Xft.dpi:96
-!URxvt.font:xft:文泉驿等宽正黑:size=9:style=Regular:antialias=true,xft:文泉驿等宽正黑:size=8:style=Regular:antialias=true
-!URxvt.boldfont:xft:文泉驿等宽正黑:size=9:style=BOld:antialias=true,xft:文泉驿等宽正黑:size=8:style=Bold:antialias=true
+
+! font setting 这里的字体系统中一定要已经安装
+URxvt.font:xft:WenQuanYi\ Micro\ Hei\ Mono:regular:size=11,xft:icomoon:regular:size=11
+
