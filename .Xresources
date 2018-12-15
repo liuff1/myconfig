@@ -1,3 +1,4 @@
+!! =============================== URxvt Config Start =============================
 !!$HOME/.Xdefaults
 URxvt.preeditType:Root
 URxvt.geometry:100x40
@@ -47,4 +48,31 @@ URxvt.borderLess:False
 
 ! font setting 这里的字体系统中一定要已经安装
 URxvt.font:xft:WenQuanYi\ Micro\ Hei\ Mono:regular:size=11,xft:icomoon:regular:size=11
+!! =============================== URxvt Config End =============================
+
+!! ======================================== Xtrem Config Start ==========================================
+XTerm*locale: true
+XTerm*utf8Title: true
+XTerm*fontMenu*fontdefault*Label: Default
+XTerm*faceName: Courier 10 Pitch:antialias=True:pixelsize=18
+!中文字体
+XTerm*faceNameDoublesize: WenQuanYi Micro Hei Mono:antialias=True:pixelsize=12
+!中文输入
+XTerm*inputMethod: fcitx
+XTerm*faceSize: 20
+XTerm*faceSize1: 20
+XTerm*faceSize2: 20
+XTerm*faceSize3: 20
+XTerm*faceSize4: 20
+XTerm*faceSize5: 20
+XTerm*faceSize6: 20
+XTerm.cjkWidth:true
+XTerm*background: #C7EDCC
+XTerm*foreground: #000000
+XTerm*scrollBar: true
+XTerm*rightScrollBar: true
+XTerm*jumpScroll: true
+XTerm*SaveLines: 1000
+XTerm*VT100.Translations: #override
+!! ======================================== Xtrem Config End  ===========================================
 
