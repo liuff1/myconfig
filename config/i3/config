@@ -1,6 +1,8 @@
 
 set $mod Mod4
 
+#============= workspace setting start =============
+
 set $ws1 1:
 set $ws2 2:
 set $ws3 3:
@@ -36,6 +38,7 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
+#============= workspace setting end =============
 
 font pango:monospace 8
 
@@ -47,6 +50,7 @@ hide_edge_borders none
 default_border none
 default_floating_border pixel 3
 
+#============= key mapping start =============
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
@@ -97,15 +101,21 @@ mode "view" {
 }
 
 bindsym $mod+v mode "view"
+#============= key mapping end =============
+
+#============= i3-bar =============
 
 bar {
 #        status_command i3status
 }
 
 
-########################### i3-gaps #############################
+#============= i3-gaps =============
 gaps inner 8
 gaps outer 8
+
+
+#============= windows rules =============
 
 
 
