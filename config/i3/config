@@ -88,9 +88,9 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 mode "view" {
-        bindsym $mod+h split h
-        bindsym $mod+v split v
-        bindsym $mod+f fullscreen toggle
+        bindsym h split h mode "default"
+        bindsym v split v mode "default"
+        bindsym f fullscreen toggle
         
         bindsym Return mode "default"
         bindsym Escape mode "default"
