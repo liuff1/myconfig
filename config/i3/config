@@ -63,10 +63,6 @@ bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
-bindsym $mod+- split h
-bindsym $mod+| split v
-bindsym $mod+f fullscreen toggle
-
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
@@ -90,6 +86,17 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+mode "view" {
+        bindsym $mod+h split h
+        bindsym $mod+v split v
+        bindsym $mod+f fullscreen toggle
+        
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+bindsym $mod+v mode "view"
 
 bar {
 #        status_command i3status
