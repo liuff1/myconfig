@@ -43,12 +43,10 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 font pango:monospace 8
 
 floating_modifier $mod
-new_window pixel 1
-new_float normal
-hide_edge_borders none
-
 default_border none
 default_floating_border pixel 3
+hide_edge_borders none
+
 
 #============= key mapping start =============
 bindsym $mod+Return exec i3-sensible-terminal
@@ -94,10 +92,7 @@ bindsym $mod+r mode "resize"
 mode "view" {
         bindsym h split h mode "default"
         bindsym v split v mode "default"
-        bindsym f fullscreen toggle
-        
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
+        bindsym f fullscreen toggle mode "default"
 }
 
 bindsym $mod+v mode "view"
