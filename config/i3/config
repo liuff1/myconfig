@@ -112,7 +112,7 @@ gaps outer 8
 
 
 #============= windows rules =============
-
+assign [class="Firefox"]  $ws2
 
 #============== startup =================
 exec_always --no-startup-id feh --bg-fill /home/liufengfan/.myconfig/config/i3/bg.png
