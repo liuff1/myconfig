@@ -101,7 +101,8 @@ bindsym $mod+v mode "view"
 #============= i3-bar =============
 
 bar {
-#        status_command i3status
+	position top
+        status_command py3status
 }
 
 
@@ -113,6 +114,7 @@ gaps outer 8
 #============= windows rules =============
 
 
-
+#============== startup =================
+exec_always --no-startup-id feh --bg-fill /home/liufengfan/.myconfig/config/i3/bg.png
 
 
