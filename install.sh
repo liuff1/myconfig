@@ -1,6 +1,9 @@
 #!/bin/bash
 
 if [ ! -f ~/.vim/autoload/plug.vim ]; then
+    if [ ! -d ~/.vim/autoload/ ]; then
+        mkdir -p ~/.vim/autoload/
+    fi
     curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 fi
 
