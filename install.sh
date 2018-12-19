@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ !(-f ~/.vim/autoload/plug.vim) ]; then
+    curl -o ~/.vim/autoload/plug.vim https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+fi
+
+
 ln -s $HOME/.myconfig/.vimrc $HOME/.vimrc
 ln -s $HOME/.myconfig/.Xresources $HOME/.Xresources
 ln -s $HOME/.myconfig/.zshrc $HOME/.zshrc
