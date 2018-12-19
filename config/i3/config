@@ -3,11 +3,11 @@ set $mod Mod4
 
 #============= workspace setting start =============
 
-set $ws1 |Term|
-set $ws2 |Web|
-set $ws3 |Edit|
-set $ws4 |Other|
-set $ws5 |Developer|
+set $ws1 Term
+set $ws2 Web
+set $ws3 Edit
+set $ws4 Other
+set $ws5 Developer
 set $ws6 6
 set $ws7 7
 set $ws8 8
