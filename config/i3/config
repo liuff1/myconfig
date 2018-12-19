@@ -46,7 +46,8 @@ floating_modifier $mod
 default_border none
 default_floating_border pixel 3
 hide_edge_borders none
-
+floating_minimum_size 75x50
+floating_maximum_size -1x-1
 
 #============= key mapping start =============
 bindsym $mod+Return exec i3-sensible-terminal
@@ -112,7 +113,11 @@ gaps outer 8
 
 
 #============= windows rules =============
-assign [class="Firefox"]  $ws2
+no_focus [window_role="pop-up"]
+assign [class="F|firefox"]  $ws2
+assign [class="E|emacs"]  $ws3
+assign [class="C|code"]  $ws3
+for_window [window_role="pop-up"] floating enable
 
 #============== startup =================
 exec_always --no-startup-id feh --bg-fill /home/liufengfan/.myconfig/config/i3/bg.png
