@@ -119,6 +119,7 @@ gaps outer 8
 no_focus [window_role="pop-up"]
 
 assign [class="irefox"]  $ws2
+assign [class="hrom"]  $ws2
 assign [class="macs"]  $ws3
 assign [class="ode"]  $ws3
 
