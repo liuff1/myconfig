@@ -6,8 +6,8 @@ set $mod Mod4
 set $ws1 Term
 set $ws2 Web
 set $ws3 Edit
-set $ws4 Other
-set $ws5 Developer
+set $ws4 Developer
+set $ws5 Other
 set $ws6 6
 set $ws7 7
 set $ws8 8
@@ -105,7 +105,7 @@ bindsym $mod+v mode "view"
 #============= i3-bar =============
 
 bar {
-	position top
+    position top
     status_command py3status
 }
 
@@ -117,9 +117,11 @@ gaps outer 8
 
 #============= windows rules =============
 no_focus [window_role="pop-up"]
-assign [class="F|firefox"]  $ws2
-assign [class="E|emacs"]  $ws3
-assign [class="C|code"]  $ws3
+
+assign [class="irefox"]  $ws2
+assign [class="macs"]  $ws3
+assign [class="ode"]  $ws3
+
 for_window [window_role="pop-up"] floating enable
 
 #============== startup =================
