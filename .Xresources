@@ -51,29 +51,29 @@ URxvt.font:xft:WenQuanYi Micro Hei Mono:regular:size=10,xft:icomoon:regular:size
 !! =============================== URxvt Config End =============================
 
 !! ======================================== Xtrem Config Start ==========================================
-XTerm*locale: true
-XTerm*utf8Title: true
-XTerm*fontMenu*fontdefault*Label: Default
-XTerm*faceName: Courier 10 Pitch:antialias=True:size=10
+*XTerm*locale: true
+*XTerm*utf8Title: true
+*XTerm*fontMenu*fontdefault*Label: Default
+*XTerm*faceName: Courier 10 Pitch:antialias=True:size=10
 !中文字体
-XTerm*faceNameDoublesize: WenQuanYi Micro Hei Mono:antialias=True:size=10
+*XTerm*faceNameDoublesize: WenQuanYi Micro Hei Mono:antialias=True:size=10
 !中文输入
-XTerm*inputMethod: fcitx
-XTerm*faceSize: 20
-XTerm*faceSize1: 20
-XTerm*faceSize2: 20
-XTerm*faceSize3: 20
-XTerm*faceSize4: 20
-XTerm*faceSize5: 20
-XTerm*faceSize6: 20
-XTerm.cjkWidth:true
-XTerm*background: #000000
-XTerm*foreground: #ffffff
-XTerm*scrollBar: false
-XTerm*rightScrollBar: true
-XTerm*jumpScroll: true
-XTerm*SaveLines: 1000
-XTerm*VT100.Translations: #override
+*XTerm*inputMethod: fcitx
+*XTerm*faceSize: 20
+*XTerm*faceSize1: 20
+*XTerm*faceSize2: 20
+*XTerm*faceSize3: 20
+*XTerm*faceSize4: 20
+*XTerm*faceSize5: 20
+*XTerm*faceSize6: 20
+*XTerm.cjkWidth:true
+*XTerm*background: #282A36
+*XTerm*foreground: #ffffff
+*XTerm*scrollBar: false
+*XTerm*rightScrollBar: true
+*XTerm*jumpScroll: true
+*XTerm*SaveLines: 1000
+*XTerm*VT100.Translations: #override
 !! ======================================== Xtrem Config End  ===========================================
 
 ! ------------------------------------------------------------------------------

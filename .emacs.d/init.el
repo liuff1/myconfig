@@ -4,7 +4,14 @@
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+(load-theme 'molokai t)
+
 (package-initialize)
+
+
+
+
 
 (setq inhibit-splash-screen t)
 ;; set tool bar nil
@@ -17,6 +24,15 @@
 ;; (global-hl-line-mode t)
 ;; set line number
 (menu-bar-mode -1)
+
+
+
+
+
+
+
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

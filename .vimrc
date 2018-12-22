@@ -29,8 +29,6 @@ inoremap <esc> <nop>
 
 " set status line
 " 显示状态行当前设置
-set statusline
-
 " 设置状态行显示常用信息
 " %F 完整文件路径名
 " %m 当前缓冲被修改标记
@@ -47,7 +45,7 @@ set statusline
 " %{...} 评估表达式的值，并用值代替
 " %{"[fenc=".(&fenc==""?&enc:&fenc).((exists("+bomb") && &bomb)?"+":"")."]"} 显示文件编码
 " %{&ff} 显示文件类型
-set statusline=%F%m%r%h%w%=\ [ft=%Y]\ %{\"[fenc=\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\"+\":\"\").\"]\"}\ [ff=%{&ff}]\ [asc=%03.3b]\ [hex=%02.2B]\ [pos=%04l,%04v][%p%%]\ [len=%L]
+" set statusline=%F%m%r%h%w%=\ [ft=%Y]\ %{\"[fenc=\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\"+\":\"\").\"]\"}\ [ff=%{&ff}]\ [asc=%03.3b]\ [hex=%02.2B]\ [pos=%04l,%04v][%p%%]\ [len=%L]
 
 " 设置 laststatus = 0 ，不显式状态行
 " 设置 laststatus = 1 ，仅当窗口多于一个时，显示状态行
@@ -82,8 +80,5 @@ set guioptions-=r
 set guioptions-=l
 set guioptions-=L
 set guioptions-=R
-
-
-let g:airline_theme='molokai'
 
 
