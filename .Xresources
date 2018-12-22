@@ -47,7 +47,7 @@ URxvt.saveLines:3000
 URxvt.borderLess:False
 
 ! font setting 这里的字体系统中一定要已经安装
-URxvt.font:xft:WenQuanYi Micro Hei Mono:regular:size=8,xft:icomoon:regular:size=8
+URxvt.font:xft:WenQuanYi Micro Hei Mono:regular:size=10,xft:icomoon:regular:size=10
 !! =============================== URxvt Config End =============================
 
 !! ======================================== Xtrem Config Start ==========================================

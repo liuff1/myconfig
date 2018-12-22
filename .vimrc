@@ -1,4 +1,5 @@
 
+if filereadable(expand("~/.vim/autoload/plug.vim"))
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
@@ -9,10 +10,18 @@ Plug 'vim-scripts/taglist.vim'
 " Plug 'vim-scripts/winmanager'
 Plug 'vim-scripts/minibufexplorerpp'
 
-
 call plug#end()
+endif
 
 set nu
+set nocompatible
+set expandtab
+syntax enable
+set cursorline
+set ruler
+set cmdheight=1
+set nobackup
+set nowritebackup
 inoremap <esc> <nop>
 
 " winmanager配置
@@ -34,5 +43,21 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 nnoremap <F2> :NERDTreeToggle<CR>
 nnoremap <F3> :TlistToggle<CR>
 
+colorscheme molokai
+set t_Co=256
+set background=dark
+
+
 set tabstop=4
-" set cursorline
+
+set guioptions-=m
+set guioptions-=T
+set guioptions-=r
+set guioptions-=l
+set guioptions-=L
+set guioptions-=R
+
+
+let g:airline_theme='molokai'
+
+
