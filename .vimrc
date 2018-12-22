@@ -6,6 +6,7 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
     Plug 'vim-airline/vim-airline-themes'
     Plug 'Valloric/YouCompleteMe'
     Plug 'scrooloose/nerdtree'
+    Plug 'tomasr/molokai'
     Plug 'vim-scripts/taglist.vim'
     " Plug 'vim-scripts/winmanager'
     Plug 'vim-scripts/minibufexplorerpp'
