@@ -26,6 +26,7 @@ set ruler
 set cmdheight=1
 set nobackup
 set nowritebackup
+set completeopt-=preview
 inoremap <esc> <nop>
 
 " set status line

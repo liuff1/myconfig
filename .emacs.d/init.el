@@ -24,7 +24,8 @@
 ;; (global-hl-line-mode t)
 ;; set line number
 (menu-bar-mode -1)
-
+(global-linum-mode t)
+(setq linum-format "%d ")
 
 
 
