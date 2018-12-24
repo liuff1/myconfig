@@ -9,7 +9,7 @@
 
 (package-initialize)
 
-
+(global-company-mode t)
 
 
 
@@ -26,6 +26,8 @@
 (menu-bar-mode -1)
 (global-linum-mode t)
 (setq linum-format "%d ")
+(setq auto-save-default nil)
+(setq make-backup-files nil)
 
 
 
