@@ -73,6 +73,13 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 nnoremap <F2> :NERDTreeToggle<CR>
 nnoremap <F3> :TlistToggle<CR>
 
+" 编辑模式下移动光标
+inoremap <C-h> <Left>
+inoremap <C-j> <Down>
+inoremap <C-k> <Up>
+inoremap <C-l> <Right>
+inoremap <C-b> <PageUp>
+inoremap <C-f> <PageDown>
 
 set tabstop=4
 

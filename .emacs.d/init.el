@@ -30,8 +30,9 @@
 (setq make-backup-files nil)
 
 
-
-
+(defun open-my-config ()
+  (interactive)
+  (find-file "~/.emacs.d/init.el"))
 
 
 
